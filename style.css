@@ -1,15 +1,6 @@
 body {
-  xxxbackground: #777;
   background: #900;
   color: #ebebeb;
-  xxxwidows: 960px;
-}
-
-xxxheader {
-  width: 100%;
-  height: 40%;
-  text-align: center;
-  background: #ccc;
 }
 
 header {
@@ -34,27 +25,78 @@ nav {
   color: white;
   text-align: center;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
-  li {
-    list-style-type: none;
-  }
 }
 
 main {
   width: 95%;
   margin: 10px auto;
-  border: 5px solid white;
-}
-
-section {
-  width: 495px;
-  float: left;
-  xxxpadding: 20px;
-  background: red;
+  height: 50%;
   color: white;
   text-align: center;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 }
 
-aside {
+section {
+  width: 49%;
+  height: 300px;
+  float: left;
+  background: red;
+  color: white;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  margin: 10px auto;
+}
 
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+aside {
+ float: right;
+
+ width: 49%;
+ margin: 10px auto;
+ height: 300px;
+ background: red;
+ color: white;
+ text-align: center;
+ box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+article {
+  background: #900;
+  height: 200px;
+  margin: 40px 10px 10px;
+  border: 2px solid red;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.heading-group {
+  background: red;
+  height: 30%;
+  margin: 40px 10px 10px;
+}
+
+.para {
+  background: red;
+  height: 20%;
+  margin: 20px 10px;
+}
+
+.heading-display {
+  display: inline-block;
+}
+footer {
+  width: 95%;
+  margin: 10px auto;
+  height: 50%;
+
+  padding: 20px;
+  background: red;
+  color: white;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 }
